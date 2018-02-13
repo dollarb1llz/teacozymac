@@ -17,6 +17,7 @@ header {
   height: 69px;
   border-bottom: 1px solid seashell;
   background-color: black;
+  z-index: 2;
 }
 .tea-cozy-logo {
   width: auto;
@@ -26,6 +27,7 @@ header {
 }
 .head-nav {
   width: auto;
+  margin-right: 10px;
 }
   .head-nav a {
     margin: 0px 5px;
@@ -70,6 +72,7 @@ main {
   margin: 10px;
   width: 300px;
   height: 200px;
+  border-radius: 5px;
 }
 .berry-blitz {
   background-image: url('../images/img-berryblitz.jpg');
@@ -115,4 +118,15 @@ main {
 }
 .opafull {
   opacity: 1.
+}
+.info {
+  text-align: center;
+  width: 1200px;
+  height: 200px;
+  margin: 0 auto;
+  background-color: black;
+}
+.copy {
+  text-align: left;
+  margin-left: 20px;
 }
