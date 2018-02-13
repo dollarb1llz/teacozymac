@@ -2,6 +2,7 @@ html, body, a {
   margin: 0;
   padding: 0;
   font-family: Helvetica;
+  font-size: 22px;
   color: seashell;
   background-color: black;
   text-align: center;
@@ -45,4 +46,73 @@ main {
   height: auto;
   background-color: black;
 
+}
+.tea-of-month {
+  text-align: center;
+  width: 1200px;
+  margin: 0 auto;
+  background-color: black;
+  position: relative;
+  padding: 10px 0px;
+}
+.tea-of-month-cont {
+  display: flex;
+  width: 1200px;
+  height: auto;
+  justify-content: center;
+  margin: 0 auto;
+}
+.tea-of-month-cont h4 {
+  width: 300px;
+  text-align: center;
+}
+.tea-of-month-cont div {
+  margin: 10px;
+  width: 300px;
+  height: 200px;
+}
+.berry-blitz {
+  background-image: url('../images/img-berryblitz.jpg');
+  background-size: cover;
+}
+.spiced-rum {
+  background-image: url('../images/img-spiced-rum.jpg');
+  background-size: cover;
+}
+.seasonal-donuts {
+  background-image: url('../images/img-donut.jpg');
+  background-size: cover;
+}
+.myrtle-ave-tea {
+  background-image: url('../images/img-myrtle-ave.jpg');
+  background-size: cover;
+}
+.bedford-bizarre-tea {
+  background-image: url('../images/img-bedford-bizarre.jpg');
+  background-size: cover;
+}
+.locations-div {
+  height: 500px;
+  width: 1200px;
+  margin: 0 auto;
+  background-image: url('../images/img-locations-background.jpg');
+  background-size: cover;
+}
+  .locations-div h2 {
+    padding-top: 60px;
+  }
+.locations-cont {
+  display: flex;
+  justify-content: center;
+
+}
+.locations-box {
+  width: 300px;
+  height: auto;
+  margin: 15px 20px;
+  background-color: black;
+  border-radius: 5px;
+}
+.opafull {
+  opacity: 1.
 }
